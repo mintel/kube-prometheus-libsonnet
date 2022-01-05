@@ -1,5 +1,0 @@
-{
-  local d = (import 'doc-util/main.libsonnet'),
-  '#':: d.pkg(name='kube_prometheus', url='github.com/mintel/kube-prometheus-libsonnet/0.9/main.libsonnet', help=''),
-  monitoring:: (import '_gen/monitoring/main.libsonnet'),
-}
